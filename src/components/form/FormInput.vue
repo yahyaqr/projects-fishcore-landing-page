@@ -1,6 +1,6 @@
 <template>
     <div class="space-y-1">
-        <label :for="id" class="text-sm font-medium text-[#41438A]">
+        <label :for="id" class="text-sm font-medium text-[#333333]">
             {{ label }}
             <span v-if="required" class="text-red-500">*</span>
         </label>

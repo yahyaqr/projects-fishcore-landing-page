@@ -1,7 +1,7 @@
 <template>
-    <div class="min-h-screen bg-gradient-to-br from-[#41438A] to-[#2D2E6B] text-[#353535] flex flex-col">
+    <div class="min-h-screen text-[#353535] flex flex-col">
         <!-- Header -->
-        <header class="bg-[#2D2E6B] p-4 flex justify-between items-center">
+        <header class="bg-[#41438A] p-4 flex justify-between items-center">
             <div class="flex items-center space-x-4">
                 <!-- <img src="/placeholder.svg?height=48&width=48" alt="Fishcore Logo" class="h-12 w-auto" /> -->
                 <h1 class="text-3xl font-bold text-[#F8F8F8]">Fishcore</h1>

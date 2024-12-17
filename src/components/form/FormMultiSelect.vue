@@ -1,6 +1,6 @@
 <template>
     <div class="space-y-1">
-        <label :for="id" class="text-sm font-medium text-[#41438A]">
+        <label :for="id" class="text-sm font-medium text-[#333333]">
             {{ label }}
             <span v-if="required" class="text-red-500">*</span>
         </label>
@@ -12,10 +12,13 @@
             ? selectedOptions.join(', ')
             : `Select ${label}` }}
                 </span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                </svg>
+                <!-- Custom dropdown arrow -->
+                <div class="flex items-center pointer-events-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </div>
             </div>
             <div v-show="dropdownOpen"
                 class="absolute left-0 right-0 bg-white border border-[#d1d5db] rounded-lg shadow-md z-10">
