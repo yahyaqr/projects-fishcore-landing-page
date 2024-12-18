@@ -2,7 +2,7 @@
     <nav class="bg-white shadow-md fixed w-full z-10 transition-all duration-300"
         :class="{ 'shadow-glow-sm': scrolled }">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-[#41438A]">Fishcore</h1>
+            <img src="../assets/Logo Fishcore.png" alt="Fishcore Logo" class="h-8 mr-2" />
             <div class="relative">
                 <!-- Display current active link -->
                 <button @click="toggleDropdown"
@@ -37,10 +37,10 @@ const sections = ref([
     { id: 'solution', title: 'Solution' },
     { id: 'features', title: 'Features' },
     { id: 'segmentation', title: 'Segmentation' },
-    { id: 'business', title: 'Business Model' },
+    // { id: 'business', title: 'Business Model' },
     { id: 'competitive', title: 'Competitive Adv.' },
-    { id: 'market', title: 'Market' },
-    { id: 'timeline', title: 'Timeline' },
+    // { id: 'market', title: 'Market' },
+    // { id: 'timeline', title: 'Timeline' },
 ]);
 
 // Reactive state
