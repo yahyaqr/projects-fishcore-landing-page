@@ -19,16 +19,16 @@
         <Segmentation />
 
         <!-- Business Model Section -->
-        <BusinessModel />
+        <!-- <BusinessModel /> -->
 
         <!-- Competitive Advantage Section -->
         <CompetitiveAdvantage />
 
         <!-- Market Opportunity Section -->
-        <MarketOpportunity />
+        <!-- <MarketOpportunity /> -->
 
         <!-- Traction & Milestones Section -->
-        <Timeline />
+        <!-- <Timeline /> -->
 
         <!-- Call to Action Section -->
         <CTA />
@@ -46,10 +46,10 @@ import Problem from '../components/pitchdeck/Problem.vue';
 import Solution from '../components/pitchdeck/Solution.vue';
 import Segmentation from '../components/pitchdeck/Segmentation.vue';
 import Features from '../components/pitchdeck/Features.vue';
-import BusinessModel from '../components/pitchdeck/BusinessModel.vue';
+// import BusinessModel from '../components/pitchdeck/BusinessModel.vue';
 import CompetitiveAdvantage from '../components/pitchdeck/CompetitiveAdvantage.vue';
-import MarketOpportunity from '../components/pitchdeck/MarketOpportunity.vue';
-import Timeline from '../components/pitchdeck/Timeline.vue';
+// import MarketOpportunity from '../components/pitchdeck/MarketOpportunity.vue';
+// import Timeline from '../components/pitchdeck/Timeline.vue';
 import CTA from '../components/pitchdeck/CTA.vue';
 </script>
 
