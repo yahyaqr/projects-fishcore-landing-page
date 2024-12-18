@@ -8,12 +8,8 @@
 
             <!-- Card with Placeholder Components -->
             <div class="bg-[#f1f1f2] p-6 sm:p-8 rounded-lg shadow-lg">
-                <h4 class="text-xl sm:text-2xl font-semibold mb-4 text-center">
-                    Card Title
-                </h4>
-
                 <!-- Three Columns of Placeholders -->
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 min-h-[400px]">
                     <PlaceholderFull />
                     <PlaceholderFull />
                     <PlaceholderFull />

@@ -80,35 +80,35 @@ import {
 const problems = [
   {
     icon: BookOpenIcon,
-    title: 'The Education Barrier',
+    title: 'Lack of Effective Knowledge Transfer',
     fullDescription:
-      'In the world of biofloc aquaculture, a critical challenge emerges: the struggle to effectively transfer knowledge. Experienced farmers, armed with years of practical wisdom, find themselves unable to bridge the gap between their expertise and the eager minds of beginners and fish crew members. This communication breakdown hinders the growth of sustainable practices and leaves newcomers ill-equipped to navigate the complexities of biofloc systems.',
+      'Experienced farmers struggle to pass on practical biofloc knowledge to beginners, leading to slow adoption and unprepared new farmers.',
     impacts: [
-      'Sustainable practices are adopted at a frustratingly slow pace',
-      'Novice farmers face a higher risk of costly mistakes in farm management',
-      "The industry's growth is stunted by a shortage of well-trained personnel",
+      'Sustainable practices take longer to adopt',
+      'New farmers make costly mistakes',
+      'Lack of trained personnel slows industry growth',
     ],
   },
   {
     icon: PuzzleIcon,
-    title: 'The Complexity Conundrum',
+    title: 'Biofloc Technology is Hard to Learn',
     fullDescription:
-      'Biofloc technology stands as a beacon of sustainability in aquaculture, promising efficient and environmentally friendly farming. However, its intricate biological processes form a labyrinth that many find daunting to navigate. Without hands-on experience, mastering this technology becomes an uphill battle, discouraging many from embracing its full potential.',
+      'Biofloc technology, while sustainable, is complicated. Without hands-on experience, beginners struggle to understand and implement it successfully.',
     impacts: [
-      'New farmers face a dauntingly steep learning curve',
-      'Initial attempts at biofloc systems often end in discouraging failures',
-      'The perceived difficulty leads to hesitation in adopting this sustainable technology',
+      'New farmers face a steep learning curve',
+      'Early failures discourage adoption',
+      'The complexity slows widespread use of the technology',
     ],
   },
   {
     icon: UsersIcon,
-    title: 'The Generational Divide',
+    title: 'Disconnect Between Generations',
     fullDescription:
-      'A chasm is widening in the world of aquaculture. On one side stand the seasoned farmers, their hands calloused by years of experience and their minds rich with traditional knowledge. On the other, a younger generation full of innovative ideas but lacking exposure to sustainable practices. This disconnect threatens the very future of aquaculture, as valuable expertise risks being lost in the gap between generations.',
+      'There is a gap between seasoned farmers with traditional expertise and younger generations who lack exposure to sustainable aquaculture practices.',
     impacts: [
-      'Precious traditional knowledge and expertise are at risk of being lost forever',
-      'Young people are turning away from careers in aquaculture, seeing it as outdated',
-      "The sector's technological advancement slows, trapped between tradition and innovation",
+      'Traditional knowledge risks being lost',
+      'Fewer young people pursue careers in aquaculture',
+      'Innovation is stalled by the disconnect between old and new approaches',
     ],
   },
 ];
